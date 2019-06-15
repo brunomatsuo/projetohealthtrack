@@ -1,0 +1,71 @@
+#barra-progresso {
+	width: 200px
+}
+
+* {
+	font-family: 'Basic', sans-serif;
+}
+
+.titulo {
+	font-family: 'Merriweather', serif;
+	font-size: 30px;
+}
+
+
+main {
+	padding-bottom: 1000px;
+	background-image: linear-gradient(#e6f2ff, #fff);
+	
+}
+
+.caixa-info {
+	color: white;
+  	text-shadow: 2px 2px 4px #444;
+  
+}
+
+.lista {
+	margin: 0px 50px 50px 50px;
+}
+
+.subtitulo {
+	color: #777799;
+}
+
+.botoes-lista {
+	margin-left: 92%;
+	margin-right: 0.5%;
+}
+
+.hora {
+	margin-top: 3%;
+	margin-left: 1%;
+}
+
+.login {
+	margin-left: 15%;
+	margin-right: 10%;
+}
+
+.cadastro {
+	margin-left: 20%;
+	margin-right: 10%;
+}
+
+.peso-titulo {
+	text-shadow: 2px 2px 4px #444;
+	color: #000;
+}
+
+.peso-principal {
+	text-align: center;
+}
+
+.imagem-carrossel {
+	object-fit: cover;
+	height: 600px;
+}
+
+.titulo-carrossel {
+	text-shadow: 2px 2px 4px #444;
+}
