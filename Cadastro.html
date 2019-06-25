@@ -9,6 +9,8 @@
   <link href="css/estilos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Basic&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <script src="js/jquery.js"></script>
+  <script src="js/formulario.js"></script>
 
 
 </head>
@@ -41,10 +43,12 @@
           <div class="form-group col-md-4">
             <label for="inputEmail4">E-mail</label>
             <input type="email" class="form-control" id="inputEmail4" placeholder="email@exemplo.com">
+            <span>E-mail obrigatório</span>
           </div>
           <div class="form-group col-md-3">
             <label for="inputPassword4">Senha</label>
             <input type="password" class="form-control" id="inputPassword4" placeholder="Senha (Mínimo de 8 caracteres)">
+            <span>Senha obrigatória</span>
           </div>
         </div>
         
@@ -52,6 +56,7 @@
           <div class="form-group col-md-3">
             <label for="inputCity">Nome de usuário</label>
             <input type="text" class="form-control" id="inputCity">
+            <span>Nome de usuário obrigatório</span>
           </div>
           <div class="form-group col-md-4">
             <label for="inputState">Sexo</label>
@@ -61,13 +66,15 @@
               <option>Feminino</option>
             </select>
           </div>
-          <div class="form-group col-md-1">
+          <div class="form-group col-md-2">
             <label for="inputAge">Idade</label>
             <input type="number" class="form-control" min="0" id="inputAge">
+            <span>Idade obrigatória</span>
           </div>
-          <div class="form-group col-md-1">
+          <div class="form-group col-md-2">
             <label for="inputAlt">Altura (cm)</label>
             <input type="number" class="form-control" min="100" max="260" id="inputAlt">
+            <span>Altura obrigatória</span>
           </div>
         </div>
         
